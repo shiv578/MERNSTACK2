@@ -1,3 +1,10 @@
+*{
+    margin:0px;
+          text-decoration: none;
+
+padding:0px
+}
+
 h1 {
     color: rgb(51, 22, 22);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,21 +30,37 @@ body {
     height: 200px;
     margin-left: 150px;
     margin-top: 150px;
-    border-radius: 10px;
+    border-radius: 20px 50px;
     background-color: rgb(30, 51, 189);
+    border-width: 10px;
+
+
 }
 
 
 nav {
-    background-color: red;
-    height: 100px;
-    position: fixed;
-    width: 1600px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
+    background-color: rgb(193, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  height: 70px;
+ position: fixed;
+ width: 1550px;
 
+ &&:hover{
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+ }
+
+}
+a{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+a:hover{
+color:aliceblue;    
 }
 
 
@@ -61,7 +84,7 @@ box-shadow: 5px 4px 10px red;}
 box-shadow: 10px 10px 20px rgb(204, 207, 250);}
 
 #div3 {
-    overflow: hidden;
+      overflow: hidden;
 }
 
 #div1 img {
@@ -87,5 +110,5 @@ footer{
     text-align: center;
     font-size: 50px;;
     margin-top: 100px;
-    background-color: red;
+    background-color: rgb(47, 186, 224);
 }
