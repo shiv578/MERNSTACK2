@@ -83,7 +83,7 @@ box-shadow: 5px 4px 10px red;}
     transform: scale(1.05);
 box-shadow: 10px 10px 20px rgb(204, 207, 250);}
 
-#div3 {
+#div3 { 
       overflow: hidden;
 }
 
