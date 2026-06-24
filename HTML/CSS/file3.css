@@ -3,6 +3,7 @@ body{
 color: white;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .container{
@@ -19,7 +20,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
     height: 100px;
     width: 150px;
-    border: 2px solid red;
+    border: 2px solid yellow;
     border-radius: 8px;
           overflow: hidden;
           transition: all 0.5 ease=ease-in-out;
@@ -27,7 +28,7 @@ font-family: Arial, Helvetica, sans-serif;
     &&:hover{
         background-color: rgb(3, 2, 5);
         color: azure;
-        box-shadow: 0px 5px  20px  orangered ;
+        box-shadow: 0px 6px  20px  red ;
 
         transform: scale(1.1);
     }
@@ -37,4 +38,37 @@ font-family: Arial, Helvetica, sans-serif;
  width: 150px;
     height: 100px;
     object-fit: cover;    
+}
+
+.bubble{
+    background-color: rgb(229, 192, 192);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    background: linear-gradient(red, brown);
+    box-shadow: 0px 15px 10px red ;
+        animation: movebubble 5s linear infinite;
+
+}
+
+@keyframes movebubble{
+    from{
+        transform: translateY(100px);
+    }
+
+    to{
+        transform: translateY(-600px);
+    }
+}
+
+.bubble img{
+object-fit: cover;
+height: 100px;
+width: 100px;
+border-radius: 50%;;
+}
+
+.bubble:hover{
+    box-shadow: 0px 10px 10px yellow;
 }
