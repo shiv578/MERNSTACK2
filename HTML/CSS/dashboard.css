@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.sidebar{
+
+    background: linear-gradient(aqua,blue);
+    height: 1500px;
+    width: 200px;
+}
+
+
+    footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 60px;
+                    background: linear-gradient(skyblue,blue);
+text-align: center;
+padding-top: 25px;
+    }
+
+    .nav{
+        background: linear-gradient(blue,purple);
+        height: 80px;
+    border: 1px solid blue;
+    color:rgb(198, 181, 181);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+&&:hover{
+background: linear-gradient(purple, blue) ;
+}
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    padding-top: 20px;
+    &&:hover{
+        color: aqua;
+        cursor: pointer;
+    }
+  
+}
+select{
+            background: linear-gradient(skyblue,blue);
+ border: 1px solid blue;
+    color:rgb(238, 225, 209);
+    font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+option{
+    background-color: blue;
+    color: black;
+}
