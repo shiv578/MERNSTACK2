@@ -24,4 +24,3 @@ const pi = 23;
 // var shivam = 4;
 // console.log(shivam);
 // this will work cause it dont meand var dont have the tdz but in let and const it will not work
-
