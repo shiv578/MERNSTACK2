@@ -5,7 +5,7 @@
 // // then it will give error;
 // console.log(m);
 
- // let name  =   prompt("Enter the name" );
+ // let name  =     prompt("Enter the name" );
 // alert("yoour name is: " + name);
 
 let num = 0 ;
