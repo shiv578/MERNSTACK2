@@ -1,7 +1,7 @@
 // "use strict"
 // let k = 2;
 // m = 4; // it will work this is creating a property on the global object(window)
-// // so this is a bad practice to avoid this we use use strict at the top of the code
+// // so this is a bad practice to   avoid this we use use strict at the top of the code
 // // then it will give error;
 // console.log(m);
 
