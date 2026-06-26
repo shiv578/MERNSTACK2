@@ -13,6 +13,8 @@ while (num == 10){
     console.log(num);
 }
 
+
+
 let a  = 10;
 let p = '10';
 console.log(a==p); 
