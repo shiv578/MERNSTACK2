@@ -18,7 +18,22 @@ console.log(typeof {})
  let a = String(123); //// 
  console.log(typeof a) // output is string typecasting
   console.log(parseInt("12abc")) // output is 12 
-function greetings( namee){
-    return "hello " + namee;
-}
-console.log(greetings("shivam"));
+// function greetings( namee = "user"){
+//     return "hello " + namee;
+// }
+// console.log(greetings());  // this is default function haveing name as users
+
+// function greetings( namee){
+//     // return "hello " + namee;
+//         return `hello ${namee}`;
+
+// }
+// console.log(greetings("Shivam swaraj"));   // this is paramertized function
+
+
+// function display(){
+//     console.log(arguments)
+// }
+       
+// display(3,4,3); java script have the agrument as object that hold al the values here already but only in the normal function
+
