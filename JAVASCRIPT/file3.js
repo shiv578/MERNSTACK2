@@ -78,4 +78,4 @@ let age = 18;
 // }
 
 let sol = age > 18 ? "eligble" : "not Eligble";
-console.log(sol);
+console.log(sol);  // this is if else but short also known as ternary operator
