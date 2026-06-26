@@ -37,3 +37,22 @@ console.log(typeof {})
        
 // display(3,4,3); java script have the agrument as object that hold al the values here already but only in the normal function
 
+// let greeting = (user) =>{
+// return "Hello " + user ;
+// }
+
+// console.log(greeting("shivam swaraj"));  // this is an arrow funciton also call back function
+
+// let display = () =>{
+//     console.log(arguments)
+// }
+       
+// display(3,4,3); // this wil give an error cause we dont have argument obj in the arrow function it is used in only intraditional 
+
+
+// let display = (...args) =>{
+//     console.log(args)
+// }
+       
+// display(3,4,3);  // now this will not give and erroe cause we are using the spread operator 
+//                     // arrow function have the spread operator that works
