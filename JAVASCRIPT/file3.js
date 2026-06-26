@@ -18,4 +18,7 @@ console.log(typeof {})
  let a = String(123); //// 
  console.log(typeof a) // output is string typecasting
   console.log(parseInt("12abc")) // output is 12 
-    console.log(parseInt("12abc"))
+function greetings( namee){
+    return "hello " + namee;
+}
+console.log(greetings("shivam"));
