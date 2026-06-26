@@ -7,7 +7,7 @@ console.log(Boolean([]))
 // let arr1 = [1,2,3];
 // let arr2 = arr1;
 // arr2[0] = 9;
-// console.log(arr1[0])  this is getting the 9 because when we ar copyting it is copying the addres
+// console.log(arr1[0])   this is getting the 9 because when we ar copyting it is copying the addres
 
 // let arr1 = [1,2,3];
 // let arr2 = [...arr1];
