@@ -66,6 +66,6 @@ console.log(data);
 // .then((profile)=>{getpost(profile.id)})
 // .then((posts)=>{console.log(posts)})
 // .catch((error)=>{console.log(error)}); 
-// 
+// .finally(()=>console.log("Closing Promises"))  // finaaly runs every time  not matter it the promise return sucess or failure'
 // // this is called promise changing we use it when we ar suing promist 
 // and gettin return in promise
