@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(black,brown);
+    text-align: center;
+    
+}
+h1{
+    color: beige;
+    text-align: center;
+}
+
+button:hover{
+        background-color: brown;
+        &&:active{
+            background-color: aqua;
+        }
+    }
+
