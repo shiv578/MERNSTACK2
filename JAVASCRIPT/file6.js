@@ -16,7 +16,8 @@ greet("shivam", done)  // this is call back function
 //   getPayment(function () {
 //                             sendEmail(function () {
 //                     logout(function () {
-//                         console.log("Done");
+
+//                          console.log("Done");
 //                            });
 //                         });
 //                 });
@@ -56,7 +57,7 @@ const download =  new Promise((resolve , reject)=>{
     },4000)
 })
 download.then((data)=>{ 
-    
+
 console.log(data);
 })
 
