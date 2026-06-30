@@ -10,19 +10,62 @@ greet("shivam", done)  // this is call back function
 
 //call back help
 
-login(function () {
-    getUser(function () {
-        getOrders(function () {
-            getPayment(function () {
-                sendEmail(function () {
-                    logout(function () {
-                        console.log("Done");
-                    });
-                });
-            });
-        });
-    });
-});  // it is a nested CALL BACK FUNCITON IN THAT CALLLING KEEPS CALLING ANOTHER FUNCTION THAT MAKES'
+// login(function () {
+//  getUser(function () {
+//        getOrders(function () {
+//   getPayment(function () {
+//                             sendEmail(function () {
+//                     logout(function () {
+//                         console.log("Done");
+//                            });
+//                         });
+//                 });
+//          });
+//   });
+// });  // it is a nested CALL BACK FUNCITON IN THAT CALLLING KEEPS CALLING ANOTHER FUNCTION THAT MAKES'
  // THE CODE HAED TO READ HARD TO MAIN TAIN HARD TO DEBUG AND ERROR HANDLING ALSO TIOUGH THIS IS CALLED  CALLBACK HELL;
 
- 
+
+
+// // promises 
+// in java script promises i an object that represent the task that is going to be sucess in teh fiuture and be failre 
+// in the future
+
+// const myPromise =  new Promise((resolve , reject)=>{
+//     let success = true;
+// if(success){
+//     resolve("data received sucessfully")
+// }
+// else{
+//     reject("Some thing is wrong");
+// }
+// })
+
+// myPromise.then((result)=>{
+//     console.log(result);
+//         console.log(myPromise);
+
+// }).catch((error)=>{
+//     console.log(error);
+// })
+
+
+const download =  new Promise((resolve , reject)=>{
+    setTimeout(()=>{
+        resolve("Download completed");
+    },4000)
+})
+download.then((data)=>{
+console.log(data);
+})
+
+
+
+// loginUser()
+// .then((user)=>{getProfile(user.id)})
+// .then((profile)=>{getpost(profile.id)})
+// .then((posts)=>{console.log(posts)})
+// .catch((error)=>{console.log(error)}); 
+// 
+// // this is called promise changing we use it when we ar suing promist 
+// and gettin return in promise
