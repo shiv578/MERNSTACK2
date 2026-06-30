@@ -97,4 +97,6 @@ console.log(data);
 
 
 
-//
+//promise.race
+
+const p1 = new Promise(resolve)
