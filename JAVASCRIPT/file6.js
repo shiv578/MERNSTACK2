@@ -55,7 +55,8 @@ const download =  new Promise((resolve , reject)=>{
         resolve("Download completed");
     },4000)
 })
-download.then((data)=>{
+download.then((data)=>{ 
+    
 console.log(data);
 })
 
