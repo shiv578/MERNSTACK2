@@ -97,6 +97,23 @@ console.log(data);
 
 
 
-//promise.race
+//promise.race 
 
-const p1 = new Promise(resolve)
+// const p1 = new Promise(resolve=>{
+//     setTimeout(()=>{
+//         resolve("First")
+//     },3000);
+// }
+// )
+
+//promise.settle
+
+//promisr.any
+
+Promise.any([
+
+    Promise.reject("Error"),
+    Promise.resolve("a"),
+    Promise.resolve("D")
+])
+.then(console.log)
