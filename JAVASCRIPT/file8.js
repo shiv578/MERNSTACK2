@@ -2,7 +2,7 @@ console.log("hello");
 
 function multiply(multi){
     return function(num){
-        return num * multi;
+           return num * multi;
     }
 }
 const double = multiply(2);
