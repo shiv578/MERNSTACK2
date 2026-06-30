@@ -75,3 +75,26 @@ console.log(data);
 // .finally(()=>console.log("Closing Promises"))  // finaaly runs every time  not matter it the promise return sucess or failure'
 // // this is called promise changing we use it when we ar suing promist 
 // and gettin return in promise
+
+
+
+// Promise.resolve("This has been ressolved")
+// .then(console.log);
+// Promise.reject("Wrong password")
+// .catch(console.log);
+
+// Promise.all
+// const p1 = Promise.resolve("A")
+// const p2 = Promise.resolve("B")
+// const p3 = Promise.resolve("C")
+// Promise.all([p1,P2, p3])
+// .then((result)=>{
+//     console.log(result);
+// })
+// .catch((error)=>{
+//     console.log(error);     
+// })
+
+
+
+//
