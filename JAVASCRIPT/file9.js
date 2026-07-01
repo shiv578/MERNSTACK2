@@ -12,10 +12,17 @@ return  `${this.fname} ${this.lname}`;
 }
 
 
-const obj2 = Object.create(obj1);
+// const obj2 = Object.create(obj1);
 
-obj.fname = "satya";
-obj2.lname = "Nagar";
+// obj.fname = "satya";
+// obj2.lname = "Nagar";
+
+
+// const obj2 = {
+//     __proto__: obj;
+// }
+
+//__proto__ =  it is property of the ibj that point the ibj of protitype;
 
 
 console.log(obj1.getfullname());
