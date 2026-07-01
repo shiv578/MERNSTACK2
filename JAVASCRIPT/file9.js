@@ -6,7 +6,7 @@ const obj1 = {
     lname: "swaraj",
 
     getfullname(){
-return  `${this.fname} ${this.lname}`;
+return    `${this.fname} ${this.lname}`;
      }
 
 }
