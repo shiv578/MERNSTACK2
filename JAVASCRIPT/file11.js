@@ -15,7 +15,7 @@ console.log(arr1);
 
 
 
-/// 
+///  
 console.log("Now learning the global execuiton ");
 
 
