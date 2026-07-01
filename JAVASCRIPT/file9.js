@@ -14,5 +14,5 @@ console.log(obj1.age);
 //PROTOTYPE =  is a property of function (especially) constructor function and classes
 
 const str1 =  "abc22";
-co
+
 //stering is alao a obj in javascript
