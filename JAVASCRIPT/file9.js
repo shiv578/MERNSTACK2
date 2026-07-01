@@ -7,7 +7,7 @@ const obj1 = {
 
     getfullname(){
 return  `${this.fname} ${this.lname}`;
-    }
+     }
 
 }
 
