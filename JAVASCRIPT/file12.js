@@ -1,9 +1,12 @@
 
 //debouncing
+//common uses of debouncing technique 
+// search suggesion api calls form validation saving drafts window resize events;
+
 function debounce(callback , delay){
 let timerid;
 return function(...args){
-    clearTimeout(timerid);
+    clearTimeout(timerid);// cancek the last timeout
   timerid =   setTimeout(() =>{
   callback(...args);
          
