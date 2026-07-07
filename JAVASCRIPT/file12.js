@@ -18,7 +18,7 @@ console.log("searching for " , query);
 }
 
 
-const searchusingdebounce = debounce(search, 2);
+const  searchusingdebounce = debounce(search, 2);
 
 
 
